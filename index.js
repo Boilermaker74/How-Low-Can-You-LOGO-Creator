@@ -1,0 +1,62 @@
+//  Import Shapes
+const inquirer = require("inquirer")
+const fs = require("fs")
+const MaxLengthInputPrompt = require('inquirer-maxlength-input-prompt')
+inquirer.registerPrompt('maxlength-input', MaxLengthInputPrompt)
+
+const {Circle, Triangle, Square, Polygon} = require("./lib/shape");
+const SVG = require("./lib/svg");
+const {Text, TriangleText} = require("./lib/text");
+
+// Get information from the User
+inquirer .prompt([
+    {
+        type: "maxlength-input",
+        name: "characters",
+        message: "Enter up to 3 characters for your logo",
+        maxLength: 3
+    },
+    {
+        type:"input",
+        name: "charColors",
+        message: "Enter a color keyword or the color's hexadecimal number for the logo text"
+    },
+    {
+        type: "list",
+        name: "shape",
+        message: "Choose a shape from the options below",
+        choices: ['square', 'circle', 'triangle','star'],
+    }, 
+    {
+        type: "input",
+        name: "shapeColor",
+        message: "Enter a color keyword or the color's hexadecimal number for the shape's color"
+    }
+])
+// Render SVG 
+.then((response) => {
+    let newText;
+    let newShape;
+
+    if (response.shape == "square"){
+        newShape = new Square(response.shapeColor)
+        newText = new Text(response.characters, response.charColors);
+
+    } else if (response.shape == "circle"){
+        newShape = new Circle(response.shapeColor)
+        newText = new Text(response.characters, response.charColors);
+    } 
+    else if (response.shape == "star"){
+        newShape = new Polygon(response.shapeColor)
+        newText = new Text(response.characters, response.charColors);
+    }
+    else {
+        newShape = new Triangle (response.shapeColor)
+        newText = new TriangleText(response.characters, response.charColors);
+    }
+    
+    const newSVG = new SVG(newShape, newText)
+    fs.writeFile("logo.svg", newSVG.render(), (err) =>
+    err ? console.log(err) : console.log('Successfully created SVG!'));
+
+})
