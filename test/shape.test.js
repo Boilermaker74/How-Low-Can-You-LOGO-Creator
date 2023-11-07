@@ -1,5 +1,6 @@
 const {Circle, Triangle, Square, Polygon} = require("../lib/shape")
 
+//Tests for shapes and colors
 
 test("A red square", () => {
     const shape = new Square();
