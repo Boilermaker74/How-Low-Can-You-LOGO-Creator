@@ -40,7 +40,7 @@ The Logo.SVG file created in the video was placed in the example folder.
 
 ## Installation 
 
-Bring up the command line. Navigate to the proper directory. Type "npm install". Once the installation has finished, type "npm test” to test the application via the jest npm package. Assuming the test yields a passed result, the application will run by typing “node  .” at the command line. 
+Clone the repository, How-Low-Can-You-LOGO-Creator. Bring up the command line. Navigate to the proper directory. Type "npm install". Once the installation has finished, type "npm test” to test the application via the jest npm package. Assuming the test yields a passed result, the application will run by typing “node  .” at the command line. 
 
 ## How to Use This Application: 
 
