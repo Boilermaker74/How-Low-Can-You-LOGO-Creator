@@ -4,7 +4,7 @@
 
 ## Description 
 
-This application produces a simple logo which consists of a three-letter logo centered in a geometric shape. The user has the choice of four shapes, circle, triangle, square or star. The user also inputs the three letters that they would like to incorporate into the logo. Finally, the user chooses the colors for the letters and the shape. The user can enter the color choice as a color keyword or a hexadecimal number. Once the user completes their choices, the application saves the image as an SVG file. 
+This application produces a simple logo which consists of a three-letter logo centered in a geometric shape. The user has the choice of four shapes, a circle, a triangle, a square or a star. The user also inputs the three letters that they would like to incorporate into the logo. Finally, the user chooses the colors for the letters and the shape. The user can enter the color choice as a color keyword or a hexadecimal number. Once the user completes their choices, the application saves the image as an SVG file. 
 
 ## Deployed Application URL 
 
