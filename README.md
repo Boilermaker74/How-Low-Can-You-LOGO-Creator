@@ -74,21 +74,21 @@ The application has three required shapes:
 
 A circle: 
 
-![alt-text](assets/images/screenshot1.png) 
+![alt-text](assets/greencircle.png) 
 
 A triangle: 
 
-![alt-text](assets/images/screenshot1.png) 
+![alt-text](assets/blacktriangle.png) 
 
  A square: 
 
-![alt-text](assets/images/screenshot1.png) 
+![alt-text](assets/redsquare.png) 
 
 The user can pick a variety of colors 
 
 In addition to the three shapes assigned, a fourth shape, a star, was also included. 
 
-![alt-text](assets/images/screenshot1.png) 
+![alt-text](assets/yellowstar.png) 
 
 ## Languages and Technologies Used 
 
