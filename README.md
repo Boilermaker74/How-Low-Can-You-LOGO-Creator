@@ -15,6 +15,7 @@ The video of the running application will be provided to demonstrate how this ap
 The Logo.SVG file created in the video was placed in the example folder. 
 
 ![alt-text](./examples/logo-from-demo.svg) 
+![alt-text](./assets/logofromvideo.png)
 
 ## Table of Contents 
 
