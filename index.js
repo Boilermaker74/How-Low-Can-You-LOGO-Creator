@@ -1,4 +1,4 @@
-//  Import Shapes
+//  Import Shapes into Code
 const inquirer = require("inquirer")
 const fs = require("fs")
 const MaxLengthInputPrompt = require('inquirer-maxlength-input-prompt')
@@ -33,7 +33,7 @@ inquirer .prompt([
         message: "Enter a color keyword or the color's hexadecimal number for the shape's color"
     }
 ])
-// Render SVG 
+// Render SVG Images
 .then((response) => {
     let newText;
     let newShape;
