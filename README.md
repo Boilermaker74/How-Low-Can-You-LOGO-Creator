@@ -46,7 +46,7 @@ Bring up the command line. Navigate to the proper directory. Type "npm install".
 
 The application requires the user to interface at the command line.  Once the application starts, the logo is defined when the user answers the questions presented. A SVG file is produced and placed into the parent directory. This file can be incorporated into any acceptable medium. 
 
-![alt-text](examples/images/screenshot.png)  
+![alt-text](assets/cmdLine.png)  
 
   
 
