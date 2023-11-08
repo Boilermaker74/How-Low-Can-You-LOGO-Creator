@@ -92,9 +92,9 @@ In addition to the three shapes assigned, a fourth shape, a star, was also inclu
 
 ## Languages and Technologies Used 
 
-![Github license](https://img.shields.io/badge/Language-HTML,JavaScript-blue.svg) 
+![Github license](https://img.shields.io/badge/Language-NodeJs-blue.svg) 
 
-![Github license](https://img.shields.io/badge/Technology-NodeJs-blue.svg) 
+![Github license](https://img.shields.io/badge/Technology-Inquirer,Jest-blue.svg) 
 
 ## Dependencies 
 
