@@ -60,11 +60,13 @@ N/A
 
 ## Testing 
 
-The application employes unit testing using the jest npm package. Development of the application followed the test driven development (TDD) paradigm in which test are developed before the code is actually written. The errors that ensue are used to design the eventual code. The test can be run by typing “npm test” at the command line. If the code is faulty, an error message will detail the problem.![alt-text](assets/images/screenshot1.png) 
+The application employes unit testing using the jest npm package. Development of the application followed the test driven development (TDD) paradigm in which test are developed before the code is actually written. The errors that ensue are used to design the eventual code. The test can be run by typing “npm test” at the command line. If the code is faulty, an error message will detail the problem.
+
+![alt-text](assets/testFail.png) 
 
  Passing test are displayed in green. 
 
-![alt-text](assets/images/screenshot1.png) 
+![alt-text](assets/testPass.png) 
 
 ## Features 
 
