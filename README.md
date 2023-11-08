@@ -1,6 +1,6 @@
 # How Low Can You Logo Creator  
 
-  by Brad Moleterno    ![Github license](https://img.shields.io/badge/license-MIT-blue.svg) 
+  by Walter Moleterno    ![Github license](https://img.shields.io/badge/license-MIT-blue.svg) 
 
 ## Description 
 
